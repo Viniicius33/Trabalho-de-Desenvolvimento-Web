@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A tecnologia está cada vez maior, e cada vez mais procurada.">
+  <title>Programação</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="cabecalho-imagem" src="imagem exemplo programação.jpg" alt="Foto de programação">
+    <nav class="cabecalho-menu">Site Desenvolvido por: Vinicius Campos Cardoso
+      <a class="cabecalho-menu-item">Email:viniciuscamposc12@gmail.com</a>
+      <a class="cabecalho-menu-item" href="Curso Tecnologia da Informação">Tecnologia da Informação</a>
+      <a class="cabecalho-menu-item">Programação Web</a>
+      <a class="cabecalho-menu-item">Front End</a>
+      <a class="cabecalho-menu-item">Back End</a>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+      <div class="conteudo-principal-escrito">
+        <h1 class="conteudo-principal-escrito-titulo">Por que escolhi o curso de programação para seguir na minha futura carreira?</h1>
+        <h2 class="conteudo-principal-escrito-subtitulo">Meu nome é Vinicius, tenho 19 anos e sou estudante do curso de Análise e Desenvolvimento de Sistemas, esse é o meu primeiro site e projeto de programação, site feito com linguagens HTML E CSS. Escolhi esse curso porque a técnologia está evoluindo cada vez mais, e com isso o interesse em saber sobre como vai ser e como ta sendo essa evolução também acontece. Escolhi aprender Desenvolvimento Web porque sempre gostei da tecnologia, de resolver bugs, e também de ser criativo em criações de sites por exemplo, sendo algo que a tecnologia da informação ensina e muito mais.</h2>
+      </div>
+      <img class="conteudo-principal-imagem"src="Programação.jpg" alt=Tecnologia">
+    </section>
+
+    <section class="conteudo-secundario">
+      <h3 class="conteudo-secundario-titulo">Como pretendo seguir minha carreira na área de programação Web?</h3>
+     <p class="conteudo-secundario-paragrafo"> A área da Técnologia que mais me faz ter interesse em aprendizado é a da Programação Web, seja para resolver erros nos códigos, criar sites ou até mesmo modifica-los da forma que alguma empresa possa pedir por exemplo.</p>
+    <p class="conteudo-secundario-paragrafo">A linguagem de programação HTML E CSS são as que mais tenho conhecimento hoje, e também são as que procuro mais e mais conhecimento para aprimorar muito sobre o que sei sobre elas, e assim desenvolver sites muito bem feitos e criativos.</p>
+      <p class="conteudo-secundario-paragrafo"> O meu principal objeto é ser um desenvolvedor, e mesmo não sendo fácil, quero sempre tentar ter um conhecimento mais e mais completo sobre esse assunto, ser um desenvolver front-end mas também podendo ter um conhecimento em back-end, sempre ta tentando evoluir o conhecimento em todo assunto que envolve Desenvolvimento Web e a Técnologia de forma geral.</p>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <img class="rodape-imagem" src="Linguagens Programação.jpg">
+  </footer>
+
+  
+</head>
+<body>
+
+<div>
+  <h1 id="titulo do formulário">Você gosta de desenvolvimento Web?</h1>
+  <p id="subtitulo do formulário">Se sim, complete esse formulário e vamos evoluir no conhecimento da Tecnologia da Informação.</p>
+  <br>
+</div>
+
+<form>
+  <fieldset class="grupo">
+    <div>
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" required>
+    </div>
+  
+  <div class="campo">
+    <label for="sobrenome">Sobrenome</label>
+    <input type="text" name="Sobrenome" id="Sobrenome" required>
+  </div>
+  </fieldset>
+
+<div class="campo">
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" required>
+</div>
+
+<div class="campo">
+<label>Qual sua linguagem de Programação preferida?</label>
+<label>
+<input type="radio" name="devweb" value="Javascript"checked>JavaScript
+</label>
+<label>
+  <input type="radio" name="devweb" value="Phyton">Phyton
+</label>
+<label>
+  <input type="radio" name="devweb" value="Outra Linguagem">Outra Linguagem
+</label>
+</div>
+
+<div class="campo">
+  <label for="senioridade">Qual seu "nivel" na Programação?</label>
+  <select id="senioridade">
+    <option selected disabled value="">Selecione aqui</option>
+    <option>Junior</option>
+    <option>Pleno</option>
+    <option>Senior</option>
+  </select>
+</div>
+
+<fieldset class="grupo">
+  <div id="check">
+    <label>Marque aqui qual a linguagem de proramação em que você tem mais conhecimento:</label><br><br>
+    <input type="checkbox" id="tecnologial1" name="tecnologial1" value="Html">
+    <label for="tecnologial">Html</label>
+    <input type="checkbox" id="tecnologial2" name="tecnologial2" value="Css">
+    <label for="tecnologial2">Css</label>
+    <input type="checkbox" id="tecnologial3" name="tecnologial3" value="Javascript">
+    <label for="tecnologial3">Javascript</label>
+    <input type="checkbox" id="tecnologial4" name="tecnologial4" value="Php">
+    <label for="tecnologial4">Php</label>
+    <input type="checkbox" id="tecnologial5" name="tecnologial5" value="C#">
+    <label for="tecnologial5">C#</label>
+    <input type="checkbox" id="tecnologial6" name="tecnologial6" value="Phyton">
+    <label for="tecnologial6">Phyton</label>
+    <input type="checkbox" id="tecnologial7" name="tecnologial7" value="Java">
+    <label for="tecnologial7">Java</label>
+  </div>
+</fieldset>
+
+<div class="campo">
+  <br>
+  <label>Se sua linguagem de programação preferida não estiver acima, digite aqui:</label>
+  <textarea row="5" id="expericiencia" name="expericiencia"></textarea>
+
+  </div>
+
+
+<button class="botao" type="submit">Concluido</button>
+
+<form>
+
+    </body>
+
+    <body>
+      <head>
+    
+    <title>Tabela</title>
+    
+      
+          <head>
+            <body>
+
+          <h1>Quer saber mais sobre esse curso?</h1>
+
+          <h1>Leia abaixo:</h1>
+      <p>Se sim, saiba mais sobre o curso com a explicação da Estácio, onde sou aluno e aprendi a desenvolver esse site, clique aqui ao lado para saber mais sobre o curso no site da Estácio: <a href="https://estacio.br/cursos/graduacao/analise-e-desenvolvimento-de-sistemas" target="_blank" rel="external">Sobre o Curso de Análise e Desenvolvimento de Sistemas </a></p>
+      <p>Ou você também pode saber mais sobre o curso pesquisando sobre ele no youtube e vendo videos sobre Html, Css, entre outras linguagens de programação e varios assuntos da Técnologia em geral, Link ao lado:<a href="https://www.youtube.com/" target="_blank" rel="external">Link do Youtube aqui</a></p>
+    <textarea>Principais Linguagens de Programação aqui abaixo</textarea>
+          <body>
+          
+    <table>
+      <tr> <!--Primeira linha-->
+        <td>1</td>
+        <td>JavaScript</td>
+      </tr>
+      <tr>
+    
+        <td>2</td>
+        <td>Phyton</td>
+    
+      </tr>
+      <tr>
+    
+        <td>3</td>
+        <td>TypeScript</td>
+      
+      </tr>
+      <tr>
+    
+        <td>4</td>
+        <td>Java</td>
+        <div>
+    
+        </div>
+    
+        </html>
+
+    <body>
+     
+
